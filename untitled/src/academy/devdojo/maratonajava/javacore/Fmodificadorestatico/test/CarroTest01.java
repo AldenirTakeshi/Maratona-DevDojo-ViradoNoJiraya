@@ -8,7 +8,7 @@ public class CarroTest01 {
         Carro carro02 = new Carro("Mercedes", 275);
         Carro carro03 = new Carro("AUDI", 290);
 
-        Carro.velocidadeLimite = 180;
+        Carro.setVelocidadeLimite(180);
 
         carro01.imprime();
         carro02.imprime();
