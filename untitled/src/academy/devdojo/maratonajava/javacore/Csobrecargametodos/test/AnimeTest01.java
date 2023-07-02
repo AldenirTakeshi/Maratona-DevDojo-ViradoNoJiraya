@@ -6,9 +6,6 @@ public class AnimeTest01 {
     public static void main(String[] args) {
         Anime anime = new Anime();
         anime.init("JOJO","TV",12,"Shounen");
-//        anime.setNome("JOJO");
-//        anime.setTipo("TV");
-//        anime.setEpisodios(12);
         anime.imprime();
     }
 }
