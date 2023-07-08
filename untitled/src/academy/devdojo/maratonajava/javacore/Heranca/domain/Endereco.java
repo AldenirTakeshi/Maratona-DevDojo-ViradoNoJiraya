@@ -6,7 +6,7 @@ public class Endereco {
 
 
     public void imprime(){
-        Pessoa p = new Pessoa();
+        Pessoa p = new Pessoa("Jiraya");
         p.nome = "Joao";
     }
     public String getRua() {
