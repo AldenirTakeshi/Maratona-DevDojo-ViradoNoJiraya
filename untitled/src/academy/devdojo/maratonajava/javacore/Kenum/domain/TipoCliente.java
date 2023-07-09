@@ -11,6 +11,7 @@ public enum TipoCliente {
     this.nomeRelatorio = nomeRelatorio;
     }
 
+
     public int getValor() {
         return valor;
     }
