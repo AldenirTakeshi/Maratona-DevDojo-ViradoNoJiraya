@@ -1,6 +1,8 @@
 package academy.devdojo.maratonajava.javacore.Minterfaces.domain;
 
 public class DatabaseLoader implements DataLoader, DataRemover{
+    public static final int MAX_DATA_SIZE = 10;
+
     @Override
     public void load() {
         System.out.println("Carregando dados do banco de dados");
